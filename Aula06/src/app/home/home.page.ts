@@ -10,7 +10,7 @@ export class HomePage {
 
   constructor(private menuCtrl:MenuController) {}
   openMenu(){
-    this.menuCtrl.open('menu-main');
+    this.menuCtrl.open('main-menu');
   }
 
 }
