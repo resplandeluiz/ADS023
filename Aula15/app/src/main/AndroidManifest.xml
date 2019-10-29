@@ -10,6 +10,9 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity android:name=".ListaRequerimentoActivity">
+
+        </activity>
+        <activity android:name=".NovoRequerimentoActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
