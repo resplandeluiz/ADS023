@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ListaActivity">
+
+    <android.support.design.widget.FloatingActionButton
+            android:layout_width="49dp"
+            android:layout_height="78dp"
+            android:clickable="true" app:srcCompat="@drawable/ic_novo_contato" tools:layout_editor_absoluteY="446dp"
+            tools:layout_editor_absoluteX="319dp" android:id="@+id/floatingActionButton"/>
+    <ListView
+            android:layout_width="368dp"
+            android:layout_height="430dp" tools:layout_editor_absoluteY="8dp" tools:layout_editor_absoluteX="8dp"/>
+</android.support.constraint.ConstraintLayout>
